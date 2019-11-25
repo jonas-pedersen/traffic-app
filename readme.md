@@ -1,29 +1,27 @@
-Project
-This project was done as a test for a job applicatition. It shows the next departures with bus or train towards 3 different neighborhoods around a city in northern Sweden. 
+# Project
+This project was done to practise front-end and back-end. It shows the next departures with bus or train towards 3 different neighborhoods around a city in northern Sweden. The departures will update each minute.
 
 
-Here is where a brief description of the project should go.
-
-It may be worthwhile to list major project contributors here, especially if this is a closed source project as one might need to reach out for questions later on.
-
-Prerequisite
+## Prerequisite
+To run this program you need to have node js installed. 
 
 
-Setting Up
-npm install
-npm run start
+## Setting Up
+From the terminal: go to the folder where you put this project. Run 
+`npm install`
 
 
-Explain any specific project dependancies here.
+## Run
+From the terminal in the folder where you put this project do the following: 
+Start up the app with the following command:
+`npm run start`
+Open [localhost](http://localhost:3000/) with port 3000.
 
-Deploying
-localhost-länk
 
-Explain how to deploy this project. Maybe minimum computer specifications or browser requirements are listed here as well.
+### Please note
+As of now the API that I'm using have limit of 10000 request per month. This app will use 3 request (one for each departure) each minute which means that it will be possible that the app doesn't work after a few days usage because of this limit.
 
-Version History
-0.0.1
-This is an update to the version history.
-Version history should be thoroughly updated and correspond to project tags.
-0.0.0
-This is the first piece of version information.
+
+#### Version History
+1.0.0
+First runnable version. 
