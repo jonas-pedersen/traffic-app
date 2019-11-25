@@ -13,9 +13,9 @@ From the terminal: go to the folder where you put this project. Run
 
 ## Run
 From the terminal in the folder where you put this project do the following: 
-Start up the app with the following command:
+- Start up the app with the following command
 `npm run start`
-Open [localhost](http://localhost:3000/) with port 3000.
+- Open [localhost](http://localhost:3000/) with port 3000.
 
 
 ### Please note
