@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Kollektivtrafik</title>
+    <link rel="icon" href="/img/rocket.png">
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body>
+  <div class="main-content" >
+    {{>header}}
+
+    <div id="table-div">
+      <table class="table">
+        <tr>
+          <th class="destination"></th>
+          <th class="mariehem destination">Mariehem</th>
+          <th class="tomtebo destination">Tomtebo</th> 
+          <th class="vannas destination">Vännäs</th>
+        </tr>
+        <tr>
+          <th class="description">Hållplats</th>
+          <td id="mariehem-station" class="mariehem"></td>
+          <td id="tomtebo-station" class="tomtebo"></td>
+          <td id="vannas-station" class="vannas"></td>
+        </tr>
+        <tr>
+          <th class="description">Avgångstid</th>
+          <td id="mariehem-time" class="mariehem"></td>
+          <td id="tomtebo-time" class="tomtebo"></td>
+          <td id="vannas-time" class="vannas"></td>
+        </tr>
+        <tr>
+          <th class="description" id="vehicle-description">Farkost</th>
+          <td id="mariehem-type" class="mariehem vehicle"></td>
+          <td id="tomtebo-type" class="tomtebo vehicle"></td>
+          <td id="vannas-type" class="vannas vehicle"></td>
+        </tr>
+      </table>
+    </div>
+
+    <p id="status-message"></p>
+
+  </div>
+    
+    {{>footer}}
+
+  <script src="/js/front-app.js"></script>
+</body>
+
+</html>

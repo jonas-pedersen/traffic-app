@@ -1,0 +1,116 @@
+body {
+    color: #333333;
+    font-family: arial;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 16px;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main-content {
+    flex-grow: 1;
+}
+
+.portrait {
+    padding-top: 40px;
+}
+
+footer {
+    color: #888888;
+    border-top: 1px solid #eeeeee;
+    margin-top: 16px;
+    padding: 16px 0;
+}
+
+header {
+    margin-top: 16px;
+    margin-bottom: 48px;
+}
+
+h1 {
+    font-size: 55px;
+    margin-bottom: 16px;
+}
+
+header a {
+    color: #888888;
+    margin-right: 16px;
+    text-decoration: none; 
+}
+
+a:hover {
+    color: #333333;
+}
+
+#table-div {
+    margin-left: -50px;
+    margin-right: -50px
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 50px 0px;
+    padding-top: 5%;  
+}
+
+th {
+    font-size: 20px
+}
+
+td {
+    padding: 10px 15px;
+    text-align: left;
+    font-size: 20px;
+}
+
+tr {
+    padding-top: 50px;
+    padding-bottom: 50px; 
+}
+
+td:empty::after {
+    content: "\00a0";
+}
+
+.mariehem {
+    background-color: #d8d8bf;
+}
+
+.tomtebo {
+    background-color: #d8bfd8;
+}
+
+.vannas {
+    background-color: #bfd6d8;
+}
+
+.destination {
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+    padding:20px 15px 10px 15px;  
+}
+
+.vehicle {
+    border-bottom-left-radius: 13px;
+    border-bottom-right-radius: 13px;
+    padding:10px 15px 20px 15px; 
+}
+
+.description {
+    text-align: left;
+}
+
+ #vehicle-description {
+    padding:10px 0px 20px 0px; 
+ }
+
+#status-message { 
+    font-style: italic; 
+}
+
+#about-message {
+    max-width: 600px;
+}
